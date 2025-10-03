@@ -4,34 +4,6 @@ This document maps the Jupyter notebooks in this repository to the specific chap
 
 ---
 
-## 2. Diving Deeper into ADK Agents
-
-### Core agent types: LLM, workflow, and custom agents
-- **Notebooks:** `02_03.ipynb`, `02_04.ipynb`, `04_02.ipynb`
-- **Summary:** The core agent types are introduced across several notebooks. `02_03.ipynb` focuses on LLM agents. `02_04.ipynb` and `04_02.ipynb` demonstrate workflow agents (`SequentialAgent` and `ParallelAgent`). The concept of custom agents is implicitly covered by the creation of custom tools in `03_02.ipynb`.
-
-### LLM agents: The engine of intelligent conversation and reasoning
-- **Notebook:** `02_03.ipynb`
-- **Summary:** This notebook introduces the fundamental `Agent` class, which is the primary implementation of an LLM agent in ADK. It demonstrates how to define an agent's behavior through natural language instructions and equip it with tools.
-
-### Building LLM agents: From basic prompts to tool-enabled power
-- **Notebooks:** `02_03.ipynb`, `03_01.ipynb`
-- **Summary:** `02_03.ipynb` shows how to build a basic LLM agent with a simple prompt. `03_01.ipynb` expands on this by demonstrating how to equip an LLM agent with a built-in tool (`google_search`) to give it access to external information.
-
-### Workflow agents: Orchestrating complex tasks with precision and order
-- **Notebook:** `02_04.ipynb`
-- **Summary:** This notebook focuses on the `SequentialAgent`, a type of workflow agent that orchestrates tasks by chaining multiple sub-agents together in a specific order. It shows how the output of one agent can be seamlessly passed as input to the next.
-
-### Custom agents: Ultimate flexibility with Python logic
-- **Notebook:** Not available in this repository.
-- **Summary:** While the course discusses creating fully custom agent logic, the hands-on example in this repository (`03_02.ipynb`) focuses on creating custom *tools* (Python functions) for agents rather than entirely new agent classes.
-
-### Strategic agent selection: Choosing the right ADK agent
-- **Notebook:** Not available in this repository.
-- **Summary:** This is a conceptual topic covered in the course. The choice of agent (`Agent`, `SequentialAgent`, `ParallelAgent`) depends on the complexity and nature of the task, as demonstrated across the various notebooks.
-
----
-
 ## 3. Empowering Agents: Tools and Integrations
 
 ### ADK's built-in toolbox: Essential capabilities for your agents
